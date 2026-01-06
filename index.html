@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paolo Antonini - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Paolo Antonini</div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">À propos</a></li>
+                <li><a href="#skills" class="nav-link">Compétences</a></li>
+                <li><a href="#projects" class="nav-link">Projets</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                <svg class="sun-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+                <svg class="moon-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">Développeur Full Stack</h1>
+            <p class="hero-subtitle">Passionné par le développement web et la création de jeux vidéo</p>
+            <div class="visit-counter">
+                <span class="counter-icon">👁️</span>
+                <span id="visit-count">0</span> visites
+            </div>
+            <a href="#contact" class="btn-primary">Me contacter</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">À propos</h2>
+            <div class="about-content">
+                <div class="about-card">
+                    <h3>Mon Parcours</h3>
+                    <p>
+                        Passionné par l'informatique depuis le lycée, j'ai choisi les spécialités <strong>NSI (Numérique et Sciences Informatiques)</strong> et <strong>Mathématiques</strong>, 
+                        ce qui m'a permis de découvrir la programmation avec <strong>Python</strong> comme premier langage.
+                    </p>
+                    <p>
+                        Cette première expérience a éveillé ma curiosité et m'a poussé à aller plus loin. En autodidacte, 
+                        j'ai exploré le développement web en apprenant <strong>HTML</strong> et <strong>CSS</strong> grâce à des plateformes comme 
+                        <strong>OpenClassroom</strong> et diverses ressources sur YouTube. Ces langages ont été parmi mes premiers apprentissages 
+                        en dehors du cadre scolaire.
+                    </p>
+                    <p>
+                        Motivé par cette passion grandissante pour le développement, j'ai décidé de poursuivre mes études dans ce domaine. 
+                        Aujourd'hui, je suis étudiant à <strong>Ynov Campus</strong> en filière informatique, où j'apprends quotidiennement 
+                        de nouvelles technologies et où je perfectionne mes compétences à travers des projets concrets et variés.
+                    </p>
+                    <p>
+                        Mon objectif est de continuer à évoluer dans le développement logiciel, que ce soit dans le web, 
+                        les applications ou le développement de jeux vidéo, tout en restant curieux et ouvert aux nouvelles technologies.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Compétences</h2>
+            
+            <div class="skills-category">
+                <h3 class="skills-category-title">Langages de Programmation</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">💻</div>
+                        <h4>HTML</h4>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🎨</div>
+                        <h4>CSS</h4>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">⚡</div>
+                        <h4>JavaScript</h4>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🔧</div>
+                        <h4>C</h4>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">⚙️</div>
+                        <h4>C++</h4>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🐍</div>
+                        <h4>Python</h4>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🔵</div>
+                        <h4>Golang</h4>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🎮</div>
+                        <h4>GodotScript</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3 class="skills-category-title">Technologies & Outils</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">🌊</div>
+                        <h4>Tailwind CSS</h4>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🎯</div>
+                        <h4>Godot Engine</h4>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">⚛️</div>
+                        <h4>React</h4>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🖥️</div>
+                        <h4>Electron</h4>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">📚</div>
+                        <h4>Git</h4>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🐙</div>
+                        <h4>GitHub</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projets</h2>
+            
+            <!-- Project Filters -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="jeux-video">Jeux Vidéo</button>
+                <button class="filter-btn" data-filter="application">Application</button>
+                <button class="filter-btn" data-filter="site-web">Site Web</button>
+                <button class="filter-btn" data-filter="en-groupe">En Groupe</button>
+                <button class="filter-btn" data-filter="solo">Solo</button>
+                <button class="filter-btn" data-filter="scolaire">Scolaire</button>
+                <button class="filter-btn" data-filter="perso">Perso</button>
+            </div>
+
+            <!-- Project Carousel -->
+            <div class="carousel-container">
+                <button class="carousel-btn carousel-prev" aria-label="Previous project">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+                
+                <div class="projects-carousel">
+                    <div class="project-card" data-categories="jeux-video en-groupe perso">
+                        <div class="project-header">
+                            <h3>Osadeo Studio</h3>
+                            <div class="project-tags">
+                                <span class="project-tag tag-type">Jeu Vidéo</span>
+                                <span class="project-tag tag-team">En Groupe</span>
+                                <span class="project-tag tag-personal">Projet Perso</span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Participation active au sein d'un studio de développement de jeux vidéo indépendant. 
+                            Contribution à la création d'un jeu vidéo en équipe, de la conception à la réalisation, 
+                            en utilisant le moteur Godot et GodotScript. Une expérience enrichissante qui m'a permis 
+                            de travailler en collaboration et d'améliorer mes compétences en développement de jeux.
+                        </p>
+                        <a href="https://github.com/OsadeoStudio" target="_blank" class="project-link">
+                            Voir le projet →
+                        </a>
+                    </div>
+
+                    <div class="project-card" data-categories="jeux-video en-groupe scolaire">
+                        <div class="project-header">
+                            <h3>Power4</h3>
+                            <div class="project-tags">
+                                <span class="project-tag tag-type">Jeu Vidéo</span>
+                                <span class="project-tag tag-team">En Groupe</span>
+                                <span class="project-tag tag-school">Projet Scolaire</span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Développement d'un jeu de Puissance 4 interactif. Ce projet m'a permis de mettre en pratique 
+                            mes compétences en programmation et en logique algorithmique, tout en créant une interface 
+                            utilisateur intuitive et agréable.
+                        </p>
+                        <a href="https://ytrack.learn.ynov.com/git/gvincent/Power4.git" target="_blank" class="project-link">
+                            Voir le projet →
+                        </a>
+                    </div>
+
+                    <div class="project-card" data-categories="application en-groupe scolaire">
+                        <div class="project-header">
+                            <h3>GIGA MANIA</h3>
+                            <div class="project-tags">
+                                <span class="project-tag tag-type">Application</span>
+                                <span class="project-tag tag-team">En Groupe</span>
+                                <span class="project-tag tag-school">Projet Scolaire</span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Application de gestion de stock pour un magasin de jeux vidéo. Développée en utilisant 
+                            des principes de programmation orientée objet, cette application permet de gérer efficacement 
+                            l'inventaire, les ventes et le catalogue de produits d'un commerce spécialisé.
+                        </p>
+                        <a href="https://github.com/SkyVence/poo-game-shop" target="_blank" class="project-link">
+                            Voir le projet →
+                        </a>
+                    </div>
+
+                    <div class="project-card" data-categories="site-web solo perso">
+                        <div class="project-header">
+                            <h3>Site Web - Artiste Musical</h3>
+                            <div class="project-tags">
+                                <span class="project-tag tag-type">Site Web</span>
+                                <span class="project-tag tag-solo">Solo</span>
+                                <span class="project-tag tag-personal">Projet Perso</span>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            Création d'un site web professionnel pour un artiste musical. Ce projet web complet 
+                            présente l'univers de l'artiste, sa musique et permet aux fans de découvrir son travail. 
+                            Développé avec HTML, CSS et JavaScript pour offrir une expérience utilisateur moderne et responsive.
+                        </p>
+                        <a href="https://github.com/PayExe/NSWEBSITE" target="_blank" class="project-link">
+                            Voir le projet →
+                        </a>
+                    </div>
+                </div>
+
+                <button class="carousel-btn carousel-next" aria-label="Next project">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators"></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                
+                <div class="contact-info">
+                    <h3>Restons en contact</h3>
+                    <p>N'hésitez pas à me contacter pour discuter de vos projets ou d'opportunités professionnelles.</p>
+                    
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/paolo-antonini-579910383/" target="_blank" class="social-link">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                            LinkedIn
+                        </a>
+                        
+                        <a href="https://github.com/PayExe" target="_blank" class="social-link">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nom</label>
+                            <input type="text" id="name" name="name" required minlength="2">
+                            <span class="form-error" id="name-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="form-error" id="email-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Sujet</label>
+                            <input type="text" id="subject" name="subject" required minlength="3">
+                            <span class="form-error" id="subject-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required minlength="10"></textarea>
+                            <span class="form-error" id="message-error"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary">Envoyer le message</button>
+                        <div id="form-status"></div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>2026 - Paolo Antonini</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
